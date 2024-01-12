@@ -27,24 +27,8 @@ The Mercedes-Benz Price Prediction project is a data-driven initiative designed 
 
 The models demonstrate promising results, with Average % error for most models under 5%, and absolute error on average less than $700. The Random Forest model outperforms the Linear Regression model in terms of both RMSE and MAE.
 
-## Future Steps
+## Recommendation
 
 - **Collect More Data:** Expanding the dataset can further enhance model accuracy.
 - **Explore Different Algorithms:** Trying different machine learning algorithms could uncover alternative models with improved performance.
 - **Hyperparameter Tuning:** Fine-tuning model parameters to optimize predictive capabilities.
-
-## Usage
-
-1. **Clone Repository:** Clone this repository to your local machine.
-   
-2. **Run R Scripts:** Execute R scripts to explore the dataset, visualize insights, prepare data, and train predictive models.
-
-3. **Model Evaluation:** Review model evaluation visualizations to assess the performance of Linear Regression and Random Forest models.
-
-4. **Recommendations:** Consider recommendations for future improvements and optimizations.
-
-Feel free to contribute, provide feedback, or use this project as a foundation for your own pricing prediction endeavors!
-
----
-
-Feel free to adjust the content based on your project's specific details and preferences.
