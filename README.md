@@ -1,29 +1,50 @@
-# Mercedes Benz Price Prediction
+# Mercedes-Benz Price Prediction
 
 ## Overview
 
-In this project, I aimed to develop a predictive model for estimating the prices of used Mercedes-Benz cars. My objective was to create an advanced pricing tool that could empower junior salespeople, enhancing their decision-making capabilities.
+The Mercedes-Benz Price Prediction project is a data-driven initiative designed to empower junior salespeople with an advanced pricing tool, enhancing their decision-making capabilities. The primary objective is to develop a predictive model that accurately estimates the prices of used Mercedes-Benz cars. This project utilizes R programming language, along with popular libraries such as tidyverse, caret, and randomForest.
 
-## Data Exploration
+## Business Objectives
 
-I began the project by exploring the dataset, which included information on various features such as model, price, mileage, engine size, transmission, and fuel type. This initial step involved checking for missing values, visualizing the distribution of prices, and examining relationships between different variables. Insights obtained from these exploratory analyses laid the foundation for subsequent model development.
+- **Empower Sales Team:** Provide a powerful pricing tool to junior salespeople, enabling them to make informed decisions on used car pricing.
+- **Enhance Decision-Making:** Improve decision-making capabilities by leveraging advanced predictive modeling techniques.
+  
+## Key Features
 
-## Visualization and Analysis
+- **Data Exploration:** Comprehensive exploration of the dataset, including head, structure, and summary analysis, to gain insights into the available information.
 
-I utilized visualizations to gain insights into the data. One notable analysis involved plotting the average price by model, highlighting the highest and lowest average prices. Additionally, I examined the distribution of prices, engine sizes, and explored the correlation between price and mileage.
+- **Visualization:** Utilization of ggplot2 and other visualization tools to create informative plots, such as Average Price by Model, Distribution of Prices, Distribution of Engine Size, and Correlation between Price and Mileage.
 
-## Data Preparation
+- **Data Preparation:** Categorical variables are converted to factors, and outliers are identified and handled. The dataset is refined for modeling.
 
-To prepare the data for modeling, I converted categorical variables (transmission, fuel type) to factors, removed instances with zero engine size, and identified and handled outliers using the boxplot.stats method.
+- **Modeling:** The project employs Linear Regression as a baseline model and Random Forest for predictive modeling. The models are trained and evaluated using metrics like RMSE (Root Mean Squared Error) and MAE (Mean Absolute Error).
 
-## Modeling
+- **Model Evaluation:** Visualizations, including a plot of predictions against actual prices and feature importance analysis, contribute to a comprehensive model evaluation.
 
-The modeling phase involved splitting the dataset into training and testing sets. I trained two models: Linear Regression and Random Forest. Evaluation metrics such as Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE) were employed to assess model performance. Random Forest outperformed Linear Regression in terms of RMSE and MAE.
+- **Recommendations:** Insights into model performance and recommendations for future improvements, such as collecting more data, trying different algorithms, and hyperparameter tuning.
 
-## Model Evaluation
+## Results
 
-The project included a thorough evaluation of the Random Forest model. Visualizations showcased predictions against actual prices, and a feature importance plot provided insights into the significant variables driving the model. The final Random Forest model demonstrated promising results with average percentage errors for most models below 5% and absolute errors averaging less than $700.
+The models demonstrate promising results, with Average % error for most models under 5%, and absolute error on average less than $700. The Random Forest model outperforms the Linear Regression model in terms of both RMSE and MAE.
 
-## Recommendations
+## Future Steps
 
-Based on the project outcomes, recommendations for future improvements were made. These included collecting more data, exploring different algorithms, and conducting hyperparameter tuning to further enhance model accuracy.
+- **Collect More Data:** Expanding the dataset can further enhance model accuracy.
+- **Explore Different Algorithms:** Trying different machine learning algorithms could uncover alternative models with improved performance.
+- **Hyperparameter Tuning:** Fine-tuning model parameters to optimize predictive capabilities.
+
+## Usage
+
+1. **Clone Repository:** Clone this repository to your local machine.
+   
+2. **Run R Scripts:** Execute R scripts to explore the dataset, visualize insights, prepare data, and train predictive models.
+
+3. **Model Evaluation:** Review model evaluation visualizations to assess the performance of Linear Regression and Random Forest models.
+
+4. **Recommendations:** Consider recommendations for future improvements and optimizations.
+
+Feel free to contribute, provide feedback, or use this project as a foundation for your own pricing prediction endeavors!
+
+---
+
+Feel free to adjust the content based on your project's specific details and preferences.
