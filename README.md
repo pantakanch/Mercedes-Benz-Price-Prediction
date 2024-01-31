@@ -32,3 +32,4 @@ The models demonstrate promising results, with Average % error for most models u
 - **Collect More Data:** Expanding the dataset can further enhance model accuracy.
 - **Explore Different Algorithms:** Trying different machine learning algorithms could uncover alternative models with improved performance.
 - **Hyperparameter Tuning:** Fine-tuning model parameters to optimize predictive capabilities.
+- **Exercise Caution with Rare Models:** Advise salespeople to be cautious when relying on predictions for car models with fewer than 50 instances, including GLB Class, G Class, CLK, CLC Class, R Class, 180, 200, 220, and 230. The model may have limited data to make accurate predictions for these rare models. Salespeople may manually adjust the predicted prices based on their understanding of market demand or consult with senior salespeople.
